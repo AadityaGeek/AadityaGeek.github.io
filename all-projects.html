@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Projects - Aaditya Kumar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">Aaditya Kumar</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#education">Education</a></li>
+                <li><a href="index.html#certificates">Certificates</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="index.html#resume">Resume</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="all-projects">
+        <div class="container">
+            <h1>All Projects</h1>
+            
+            <div class="project-categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="web">Web Development</button>
+                <button class="category-btn" data-category="python">Python</button>
+                <button class="category-btn" data-category="app">Mobile Apps</button>
+                <button class="category-btn" data-category="others">Others</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project cards will go here -->
+                <div class="project-card" data-category="web">
+                    <img src="projects/portfolio.webp" alt="Portfolio Website">
+                    <div class="project-content">
+                        <h3>Personal Portfolio</h3>
+                        <p>A responsive website showcasing my skills, projects, and resume.</p>
+                        <p class="tech-stack">HTML • CSS • JavaScript</p>
+                        <div class="project-actions">
+                            <a href="#" class="btn" target="_blank">Live Demo</a>
+                            <a href="#" class="btn btn-outline" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="python">
+                    <img src="projects/todo-app.webp" alt="Todo List App">
+                    <div class="project-content">
+                        <h3>Todo List Application</h3>
+                        <p>A simple and efficient todo list application with data persistence.</p>
+                        <p class="tech-stack">Python • Tkinter • SQLite</p>
+                        <div class="project-actions">
+                            <a href="#" class="btn" target="_blank">Live Demo</a>
+                            <a href="#" class="btn btn-outline" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Aaditya Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

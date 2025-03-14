@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Certificates - Aaditya Kumar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">Aaditya Kumar</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#education">Education</a></li>
+                <li><a href="index.html#certificates">Certificates</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="index.html#resume">Resume</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="all-certificates">
+        <div class="container">
+            <h1>All Certificates</h1>
+            
+            <div class="certificate-categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="programming">Programming</button>
+                <button class="category-btn" data-category="web">Web Development</button>
+                <button class="category-btn" data-category="office">Office Tools</button>
+                <button class="category-btn" data-category="finance">Finance</button>
+                <button class="category-btn" data-category="others">Others</button>
+            </div>
+
+            <div class="certificates-grid">
+                <!-- All your certificates here with data-category attribute -->
+                <div class="certificate-card" data-category="programming">
+                    <img src="certificates/basics_of_python.webp" alt="Basics of Python Certificate">
+                    <div class="certificate-content">
+                      <h3>Basics of Python</h3>
+                      <p>Code 360</p>
+                      <p class="date">Issued: June 2024</p>
+                      <div class="certificate-actions">
+                        <button class="btn" onclick="openCertModal('certificates/basics_of_python.webp')">View</button>
+                        <a href="https://files.codingninjas.in/certi_image6114081773c31e64a64533bd5e377e6e155244.jpg" class="btn btn-outline" target="_blank">Verify</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="certificate-card" data-category="programming">
+                    <img src="certificates/python_for_beginners.webp" alt="Python for Beginners Certificate">
+                    <div class="certificate-content">
+                      <h3>Python for Beginners</h3>
+                      <p>Scaler</p>
+                      <p class="date">Issued: June 2024</p>
+                      <div class="certificate-actions">
+                        <button class="btn" onclick="openCertModal('certificates/python_for_beginners.webp')">View</button>
+                        <a href="https://moonshot.scaler.com/s/sl/YUBQzo6ngu" class="btn btn-outline" target="_blank">Verify</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="certificate-card" data-category="programming">
+                    <img src="certificates/python_programming_in_hindi.webp" alt="Python Programming in Hindi Certificate">
+                    <div class="certificate-content">
+                      <h3>Python Programming in Hindi</h3>
+                      <p>Great Learning Academy</p>
+                      <p class="date">Issued: June 2024</p>
+                      <div class="certificate-actions">
+                        <button class="btn" onclick="openCertModal('certificates/python_programming_in_hindi.webp')">View</button>
+                        <a href="https://olympus1.mygreatlearning.com/course_certificates/download.pdf?user_name=AJOCDDGN" class="btn btn-outline" target="_blank">Verify</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="certificate-card" data-category="finance">
+                    <img src="certificates/Certificate_Program_in_Banking_Finance_and_Insurance.jpg" alt="Certificate Program in Banking Finance and Insurance">
+                    <div class="certificate-content">
+                      <h3>Certificate Program in Banking Finance and Insurance</h3>
+                      <p>Bajaj Finserv</p>
+                      <p class="date">Issued: August 2023</p>
+                      <div class="certificate-actions">
+                        <button class="btn" onclick="openCertModal('certificates/Certificate_Program_in_Banking_Finance_and_Insurance.jpg')">View</button>
+                        <a href="https://drive.google.com/file/d/1oDpBfBcbgERWbTAswYad1Io4k34-cv_r/view" class="btn btn-outline" target="_blank">Verify</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="certificate-card" data-category="finance">
+                    <img src="certificates/Certificate_of_Completion_HR_Workshop.jpg" alt="Certificate of Completion - HR Workshop">
+                    <div class="certificate-content">
+                      <h3>Certificate of Completion - HR Workshop</h3>
+                      <p>Bajaj Finserv</p>
+                      <p class="date">Issued: August 2023</p>
+                      <div class="certificate-actions">
+                        <button class="btn" onclick="openCertModal('certificates/Certificate_of_Completion_HR_Workshop.jpg')">View</button>
+                        <a href="https://drive.google.com/file/d/1oDDGG5Yc0DaIyeShsBUsgaHeAOCVh2sS/view" class="btn btn-outline" target="_blank">Verify</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="certificate-card" data-category="web">
+                    <img src="certificates/Responsive_Web_Design.png" alt="Responsive Web Design Certificate">
+                    <div class="certificate-content">
+                      <h3>Responsive Web Design</h3>
+                      <p>freeCodeCamp</p>
+                      <p class="date">Issued: January 2024</p>
+                      <div class="certificate-actions">
+                        <button class="btn" onclick="openCertModal('certificates/Responsive_Web_Design.png')">View</button>
+                        <a href="https://www.freecodecamp.org/certification/aadityakumar/responsive-web-design" class="btn btn-outline" target="_blank">Verify</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="certificate-card" data-category="analytics">
+                    <img src="certificates/introduction_to_data_analytics.webp" alt="Introduction to Data Analytics Certificate">
+                    <div class="certificate-content">
+                      <h3>Introduction to Data Analytics</h3>
+                      <p>SkillUp</p>
+                      <p class="date">Issued: February 2022</p>
+                      <div class="certificate-actions">
+                        <button class="btn" onclick="openCertModal('certificates/introduction_to_data_analytics.webp')">View</button>
+                        <a href="https://tinyurl.com/5bhrvrfp" class="btn btn-outline" target="_blank">Verify</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="certificate-card" data-category="web">
+                    <img src="certificates/Certificate_for_the_Completion_of _HTML_Training.webp" alt="Completion of HTML Training Certificate">
+                    <div class="certificate-content">
+                      <h3>Completion of HTML Training</h3>
+                      <p>Spoken Tutorial</p>
+                      <p class="date">Issued: April 2022</p>
+                      <div class="certificate-actions">
+                        <button class="btn" onclick="openCertModal('certificates/Certificate_for_the_Completion_of _HTML_Training.webp')">View</button>
+                        <a href="https://drive.google.com/file/d/1XwAiNp-l2dmez2vDDbX8O3Qo59Q7AT2N/view" class="btn btn-outline" target="_blank">Verify</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="certificate-card" data-category="office">
+                    <img src="certificates/Completion_of_LibreOffice_Suite_Writer.webp" alt="Completion of
+                    LibreOffice Suite Writer Certificate">
+                    <div class="certificate-content">
+                      <h3>Completion of LibreOffice Suite Writer</h3>
+                      <p>Spoken Tutorial</p>
+                      <p class="date">Issued: April 2022</p>
+                      <div class="certificate-actions">
+                        <button class="btn" onclick="openCertModal('certificates/Completion_of_LibreOffice_Suite_Writer.webp')">View</button>
+                        <a href="https://drive.google.com/file/d/1XzpIRG8TPOKBWsIXooPCCAXUQa-KbwDE/view" class="btn btn-outline" target="_blank">Verify</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="certificate-card" data-category="office">
+                    <img src="certificates/Completion_of_LibreOffice_Suite_Calc.webp" alt="Completion of
+                    LibreOffice Suite Calc Certificate">
+                    <div class="certificate-content">
+                      <h3>Completion of LibreOffice Suite Calc</h3>
+                      <p>Spoken Tutorial</p>
+                      <p class="date">Issued: April 2022</p>
+                      <div class="certificate-actions">
+                        <button class="btn" onclick="openCertModal('certificates/Completion_of_LibreOffice_Suite_Calc.webp')">View</button>
+                        <a href="https://drive.google.com/file/d/1Xgao9IaoZ16_yq9Bdbs3I4qT3K1LlNMa/view" class="btn btn-outline" target="_blank">Verify</a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="certificate-card" data-category="others">
+                    <img src="images/cert2.png" alt="Certificate 3">
+                    <div class="certificate-content">
+                      <h3>JavaScript Advanced Course</h3>
+                      <p>freeCodeCamp</p>
+                      <p class="date">Issued: March 2024</p>
+                      <a href="#" class="btn">View Certificate</a>
+                    </div>
+                  </div>
+                  
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Aaditya Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="certModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img id="modalImage" src="" alt="Certificate">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
