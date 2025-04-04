@@ -156,6 +156,33 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+// Project category filtering
+document.addEventListener('DOMContentLoaded', function() {
+    const projectCategoryButtons = document.querySelectorAll('.project-categories .category-btn');
+    if (projectCategoryButtons.length > 0) {
+        const projects = document.querySelectorAll('.project-card');
+        
+        projectCategoryButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Update active button
+                projectCategoryButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                // Filter projects
+                const category = button.dataset.category;
+                projects.forEach(project => {
+                    if (category === 'all' || project.dataset.category === category) {
+                        project.style.display = '';
+                        project.style.animation = 'fadeIn 0.5s ease-in-out';
+                    } else {
+                        project.style.display = 'none';
+                    }
+                });
+            });
+        });
+    }
+});
+
 // Add form handling
 const contactForm = document.querySelector('#contact form');
 if (contactForm) {
@@ -167,9 +194,13 @@ if (contactForm) {
 
         try {
             const formData = new FormData(contactForm);
-            const response = await fetch(contactForm.action, {
+            // You need to replace 'YOUR_FORM_ENDPOINT' with your actual form handling endpoint
+            const response = await fetch('https://formspree.io/f/xrbpzpwo', {
                 method: 'POST',
-                body: formData
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(Object.fromEntries(formData)),
             });
 
             if (response.ok) {
@@ -179,6 +210,7 @@ if (contactForm) {
                 throw new Error('Failed to send message');
             }
         } catch (error) {
+            console.error('Error:', error);
             alert('Failed to send message. Please try again later.');
         } finally {
             submitButton.disabled = false;

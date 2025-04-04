@@ -928,9 +928,12 @@ main {
 }
 
 .project-card img {
-    width: 100%;
+    width: 280px;
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 auto;
 }
 
 .project-content {
@@ -1013,7 +1016,9 @@ main {
     }
 
     .project-card img {
+        width: 260px;
         height: 180px;
+        padding: 8px;
     }
 }
 
