@@ -1,0 +1,92 @@
+[
+    {
+        "title": "QR Code Generator",
+        "description": "A simple QR code generator built with HTML, CSS, and JavaScript.",
+        "image": "projects/qr-code-generator.png",
+        "techStack": "HTML \u2022 CSS \u2022 JavaScript",
+        "liveDemo": "https://aadityageek.github.io/QR-code-generator/",
+        "githubLink": "https://github.com/AadityaGeek/QR-code-generator/",
+        "category": "tools"
+    },
+    {
+        "title": "Advanced Search",
+        "description": "A simple advanced search built with HTML, CSS, and JavaScript.",
+        "image": "projects/advanced-search.webp",
+        "techStack": "HTML \u2022 CSS \u2022 JavaScript",
+        "liveDemo": "https://aadityageek.github.io/advanced-search/",
+        "githubLink": "https://github.com/AadityaGeek/advanced-search/",
+        "category": "web"
+    },
+    {
+        "title": "Firebase Authentication",
+        "description": "A simple Firebase authentication system built with HTML, CSS, JavaScript and Firebase.",
+        "image": "projects/authentication-web-page.webp",
+        "techStack": "HTML \u2022 CSS \u2022 JavaScript \u2022 Firebase",
+        "liveDemo": "https://aadityageek.github.io/authentication-web-page/",
+        "githubLink": "https://github.com/AadityaGeek/authentication-web-page/",
+        "category": "web"
+    },
+    {
+        "title": "Personal Portfolio",
+        "description": "A responsive website showcasing my skills, projects, and resume.",
+        "image": "projects/personal_portfolio.webp",
+        "techStack": "HTML \u2022 CSS \u2022 JavaScript",
+        "liveDemo": "https://aadityageek.github.io/",
+        "githubLink": "https://github.com/AadityaGeek/AadityaGeek.github.io",
+        "category": "web"
+    },
+    {
+        "title": "Math Tools",
+        "description": "A simple math tools built with HTML, CSS, and JavaScript.",
+        "image": "projects/math_tools.webp",
+        "techStack": "HTML \u2022 CSS \u2022 JavaScript",
+        "liveDemo": "https://aadityageek.github.io/math-tools/",
+        "githubLink": "https://github.com/AadityaGeek/math-tools/",
+        "category": "tools"
+    },
+    {
+        "title": "Gradient Color Generator",
+        "description": "A simple gradient color generator built with HTML, CSS, and JavaScript.",
+        "image": "projects/gradient-color-generator.webp",
+        "techStack": "HTML \u2022 CSS \u2022 JavaScript",
+        "liveDemo": "https://aadityageek.github.io/gradient-color-generator/",
+        "githubLink": "https://github.com/AadityaGeek/gradient-color-generator/",
+        "category": "tools"
+    },
+    {
+        "title": "AI Image Generator",
+        "description": "A AI image generator built with HTML, CSS, and JavaScript.",
+        "image": "projects/ai_image_generator.webp",
+        "techStack": "HTML \u2022 CSS \u2022 JavaScript",
+        "liveDemo": "https://aadityageek.github.io/ai-image-generator/",
+        "githubLink": "https://github.com/AadityaGeek/ai-image-generator",
+        "category": "web"
+    },
+    {
+        "title": "Photo Metadata Analysis",
+        "description": "A Photo Metadata Analysis built with HTML, CSS, and JavaScript.",
+        "image": "projects/photo_metadata_viewer.webp",
+        "techStack": "HTML \u2022 CSS \u2022 JavaScript",
+        "liveDemo": "https://aadityageek.github.io/photo-metadata-viewer/",
+        "githubLink": "https://github.com/AadityaGeek/photo-metadata-viewer/",
+        "category": "web"
+    },
+    {
+        "title": "Image Compressor Pro",
+        "description": "A Image Compressor Pro built with HTML, CSS, and JavaScript.",
+        "image": "projects/image-compressor-pro.webp",
+        "techStack": "HTML \u2022 CSS \u2022 JavaScript",
+        "liveDemo": "https://aadityageek.github.io/image-compressor-pro/",
+        "githubLink": "https://github.com/AadityaGeek/image-compressor-pro/",
+        "category": "web"
+    },
+    {
+        "title": "Spin the Wheel",
+        "description": "A Spin the Wheel built with HTML, CSS, and JavaScript.",
+        "image": "projects/spin-the-wheel.png",
+        "techStack": "HTML \u2022 CSS \u2022  JavaScript",
+        "liveDemo": "https://aadityageek.github.io/spin-the-wheel/",
+        "githubLink": "https://github.com/AadityaGeek/spin-the-wheel/",
+        "category": "web"
+    }
+]

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aaditya Kumar - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta name="description" content="Aaditya Kumar - Web Developer Portfolio showcasing projects, skills, and experience in front-end development.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Aaditya Kumar - Portfolio">
+  <meta property="og:description" content="Web Developer Portfolio showcasing projects, skills, and experience">
+  <meta property="og:image" content="images/your-photo.webp">
+  <meta property="og:url" content="your-website-url.com">
+  
+  <!-- Preload critical fonts -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" as="style">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <a href="#home" class="logo">Aaditya Kumar</a>
+      <div class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <div class="container">
+      <div class="home-content">
+        <h1>Hi, I'm <span>Aaditya Kumar</span></h1>
+        <p>Aspiring Programmer | MCA Student | Passionate about Software Engineering | Committed to Continuous Learning | Simplifying Complexity</p>
+        <a href="#portfolio" class="btn">View My Work</a>
+      </div>
+      <img src="images/aaditya_kumar.webp"
+           alt="Aaditya Kumar" 
+           class="home-img">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p style="text-align: justify;">
+        Hello! I'm <strong>Aaditya Kumar</strong>, a dedicated <em>MCA student</em><!--  and aspiring <strong>web developer</strong> with a strong foundation in <em>front-end technologies</em>. I'm passionate about creating modern, user-friendly websites and applications-->. Currently pursuing my <strong>Master's in Computer Applications</strong> at <em>Patna University</em>, I combine my academic knowledge with practical coding skills. I enjoy taking on new challenges and continuously learning about <em>emerging technologies</em> in web development. When I'm not coding, I focus on expanding my technical knowledge and contributing to the <strong>developer community</strong>.
+      </p>
+      <h3>Skills</h3>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+        <li>SQL</li>
+        <li>C++ Programming</li>
+        <li>Python</li>
+        <li>C Programming</li>
+        <li>Java Programming</li>
+        
+      </ul>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Masters of Computer Application - MCA</h3>
+            <p>Patna University, Patna</p>
+            <p>2024 - Current</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Bachelor of Computer Application - BCA</h3>
+            <p>Patliputra University, Patna</p>
+            <p>2021 - 2024</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Intermediate (12th)</h3>
+            <p>S.G.D High School, Patna</p>
+            <p>2019 - 2021</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Matriculation (10th)</h3>
+            <p>Christ Church Diocesan School, Patna</p>
+            <p>2019</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="certificates">
+    <div class="container">
+      <h2>Featured Certificates</h2>
+      <div class="certificates-grid">
+        <!-- Only top 3 certificates -->
+        <div class="certificate-card">
+          <img src="certificates/Responsive_Web_Design.png" alt="Responsive Web Design Certificate">
+          <div class="certificate-content">
+            <h3>Responsive Web Design</h3>
+            <p>freeCodeCamp</p>
+            <p class="date">Issued: January 2024</p>
+            <div class="certificate-actions">
+              <button class="btn" onclick="openCertModal('certificates/Responsive_Web_Design.png')">View</button>
+              <a href="https://www.freecodecamp.org/certification/aadityakumar/responsive-web-design" class="btn btn-outline" target="_blank">Verify</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="certificate-card">
+          <img src="certificates/basics_of_python.webp" alt="Basics of Python Certificate">
+          <div class="certificate-content">
+            <h3>Basics of Python</h3>
+            <p>Code 360</p>
+            <p class="date">Issued: June 2024</p>
+            <div class="certificate-actions">
+              <button class="btn" onclick="openCertModal('certificates/basics_of_python.webp')">View</button>
+              <a href="https://files.codingninjas.in/certi_image6114081773c31e64a64533bd5e377e6e155244.jpg" class="btn btn-outline" target="_blank">Verify</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="certificate-card">
+          <img src="certificates/Certificate_Program_in_Banking_Finance_and_Insurance.jpg" alt="Certificate Program in Banking Finance and Insurance">
+          <div class="certificate-content">
+            <h3>Certificate Program in Banking Finance and Insurance</h3>
+            <p>Bajaj Finserv</p>
+            <p class="date">Issued: August 2023</p>
+            <div class="certificate-actions">
+              <button class="btn" onclick="openCertModal('certificates/Certificate_Program_in_Banking_Finance_and_Insurance.jpg')">View</button>
+              <a href="https://drive.google.com/file/d/1oDpBfBcbgERWbTAswYad1Io4k34-cv_r/view" class="btn btn-outline" target="_blank">Verify</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="certificates-footer">
+        <a href="all-certificates.html" class="btn btn-large">View All Certificates</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Project 1: Personal Portfolio</h3>
+          <p>A responsive website showcasing my skills, projects, and resume.</p>
+          <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+          <a href="https://aadityageek.github.io" target="_blank" class="btn">Live Demo</a>
+          <a href="https://github.com/AadityaGeek/AadityaGeek.github.io" target="_blank" class="btn">GitHub</a>
+        </div>
+
+        <div class="project">
+          <h3>Project 2: Firebase Authentication</h3>
+          <p>A simple Firebase authentication system built with HTML, CSS, and JavaScript.</p>
+          <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Firebase</p>
+          <a href="https://aadityageek.github.io/authentication-web-page/" target="_blank" class="btn">Live Demo</a>
+          <a href="https://github.com/AadityaGeek/authentication-web-page" target="_blank" class="btn">GitHub</a>
+        </div>
+
+        <div class="project">
+          <h3>Project 3: Gradient Color Generator</h3>
+          <p>A simple gradient color generator built with HTML, CSS, and JavaScript.</p>
+          <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+          <a href="https://aadityageek.github.io/gradient-color-generator/" target="_blank" class="btn">Live Demo</a>
+          <a href="https://github.com/AadityaGeek/gradient-color-generator" target="_blank" class="btn">GitHub</a>
+        </div>
+      </div>
+      <div class="portfolio-footer">
+        <a href="all-projects.html" class="btn btn-large">View All Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <p>Download my resume to learn more about my education and experience.</p>
+      <a href="Aaditya_Resume.pdf" class="btn" download>Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/xrbpzpwo" method="POST">
+      <!-- <form action="https://getform.io/f/bkkypwlb" method="POST"> -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="social-links">
+        <a href="https://github.com/AadityaGeek" target="_blank">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="https://linkedin.com/in/aadityakr" target="_blank">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="mailto:work.aadityakr@gmail.com">
+          <i class="fas fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Aaditya Kumar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

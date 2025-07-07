@@ -1,0 +1,122 @@
+[
+    {
+        "title": "Basics of Python",
+        "org": "Code 360",
+        "date": "June 2024",
+        "image": "certificates/basics_of_python.webp",
+        "verify": "https://files.codingninjas.in/certi_image6114081773c31e64a64533bd5e377e6e155244.jpg",
+        "category": "programming"
+    },
+    {
+        "title": "Responsive Web Design",
+        "org": "freeCodeCamp",
+        "date": "January 2024",
+        "image": "certificates/Responsive_Web_Design.png",
+        "verify": "https://www.freecodecamp.org/certification/aadityakumar/responsive-web-design/",
+        "category": "web"
+    },
+    {
+        "title": "AI for Beginners",
+        "org": "HP Life",
+        "date": "April 2025",
+        "image": "certificates/Completion-of-AI-for-Beginners.webp",
+        "verify": "https://drive.google.com/file/d/15zrS0z1sbBVChBPSvSXIfzHgabgn6wtC/view",
+        "category": "ai"
+    },
+    {
+        "title": "Python for Beginners",
+        "org": "Scaler",
+        "date": "June 2024",
+        "image": "certificates/python_for_beginners.webp",
+        "verify": "https://moonshot.scaler.com/s/sl/YUBQzo6ngu/",
+        "category": "programming"
+    },
+    {
+        "title": "Python Programming in Hindi",
+        "org": "Great Learning Academy",
+        "date": "June 2024",
+        "image": "certificates/python_programming_in_hindi.webp",
+        "verify": "https://olympus1.mygreatlearning.com/course_certificates/download.pdf?user_name=AJOCDDGN/",
+        "category": "programming"
+    },
+    {
+        "title": "Certificate Program in Banking Finance and Insurance",
+        "org": "Bajaj Finserv",
+        "date": "August 2023",
+        "image": "certificates/Certificate_Program_in_Banking_Finance_and_Insurance.jpg",
+        "verify": "https://drive.google.com/file/d/1oDpBfBcbgERWbTAswYad1Io4k34-cv_r/view",
+        "category": "finance"
+    },
+    {
+        "title": "Certificate of Completion - HR Workshop",
+        "org": "Bajaj Finserv",
+        "date": "August 2023",
+        "image": "certificates/Certificate_of_Completion_HR_Workshop.jpg",
+        "verify": "https://drive.google.com/file/d/1oDDGG5Yc0DaIyeShsBUsgaHeAOCVh2sS/view",
+        "category": "finance"
+    },
+    {
+        "title": "Responsive Web Design",
+        "org": "freeCodeCamp",
+        "date": "January 2024",
+        "image": "certificates/Responsive_Web_Design.png",
+        "verify": "https://www.freecodecamp.org/certification/aadityakumar/responsive-web-design/",
+        "category": "web"
+    },
+    {
+        "title": "Introduction to Data Analytics",
+        "org": "SkillUp",
+        "date": "February 2022",
+        "image": "certificates/introduction_to_data_analytics.webp",
+        "verify": "https://tinyurl.com/5bhrvrfp/",
+        "category": "analytics"
+    },
+    {
+        "title": "Completion of HTML Training",
+        "org": "Spoken Tutorial",
+        "date": "April 2022",
+        "image": "certificates/Certificate_for_the_Completion_of _HTML_Training.webp",
+        "verify": "https://drive.google.com/file/d/1XwAiNp-l2dmez2vDDbX8O3Qo59Q7AT2N/view",
+        "category": "web"
+    },
+    {
+        "title": "Completion of LibreOffice Suite Writer",
+        "org": "Spoken Tutorial",
+        "date": "April 2022",
+        "image": "certificates/Completion_of_LibreOffice_Suite_Writer.webp",
+        "verify": "https://drive.google.com/file/d/1XzpIRG8TPOKBWsIXooPCCAXUQa-KbwDE/view",
+        "category": "office"
+    },
+    {
+        "title": "Completion of LibreOffice Suite Calc",
+        "org": "Spoken Tutorial",
+        "date": "April 2022",
+        "image": "certificates/Completion_of_LibreOffice_Suite_Calc.webp",
+        "verify": "https://drive.google.com/file/d/1Xgao9IaoZ16_yq9Bdbs3I4qT3K1LlNMa/view",
+        "category": "office"
+    },
+    {
+        "title": "Completion of C Training",
+        "org": "Spoken Tutorial",
+        "date": "February 2023",
+        "image": "certificates/Completion-of-C-Training.webp",
+        "verify": "https://drive.google.com/file/d/1HmrU3mG-WnQgT0U0s9rdviKJyHl82kYe/view",
+        "category": "programming"
+    },
+    {
+        "title": "Completion of Java Training",
+        "org": "Spoken Tutorial",
+        "date": "February 2024",
+        "image": "certificates/Completion-of-Java-Training.webp",
+        "verify": "https://drive.google.com/file/d/13nhAE4b3HZ8lVZC0SKP2u12rE_kwqxpu/view",
+        "category": "programming"
+    },
+    {
+        "title": "Completion of Advanced C++ Training",
+        "org": "Spoken Tutorial",
+        "date": "February 2024",
+        "image": "certificates/Completion-of-Advanced-Cpp-Training.webp",
+        "verify": "https://drive.google.com/file/d/13ksxkNYGlhv3otLEcOKZsalgoQ8_TIg-/view",
+        "category": "programming"
+    }
+]
