@@ -82,7 +82,9 @@
       card.dataset.category = project.category;
 
       card.innerHTML = `
-        <img src="${project.image}" alt="${project.title}">
+        <div class="img-container">
+          <img src="${project.image}" alt="${project.title}">
+        </div>
         <div class="project-content">
           <h3>${project.title}</h3>
           <p>${project.description}</p>
