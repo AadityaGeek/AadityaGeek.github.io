@@ -57,7 +57,7 @@
         "title": "AI Image Generator",
         "description": "Generate unique images by describing your ideas, choosing a model, and customizing image settings. Instantly view and explore your AI-generated results.",
         "image": "projects/ai_image_generator.webp",
-        "techStack": "HTML \u2022 CSS \u2022 JavaScript",
+        "techStack": "HTML \u2022 CSS \u2022 JavaScript \u2022 Hugging Face API",
         "liveDemo": "https://aadityageek.github.io/ai-image-generator/",
         "githubLink": "https://github.com/AadityaGeek/ai-image-generator",
         "category": "web"
