@@ -1,7 +1,7 @@
 [
     {
         "title": "QR Code Generator",
-        "description": "A simple QR code generator built with HTML, CSS, and JavaScript.",
+        "description": "Create and download QR codes for text, links, contacts, or payments—quick and easy.",
         "image": "projects/qr-code-generator.png",
         "techStack": "HTML \u2022 CSS \u2022 JavaScript",
         "liveDemo": "https://aadityageek.github.io/QR-code-generator/",
@@ -10,7 +10,7 @@
     },
     {
         "title": "Advanced Search",
-        "description": "A simple advanced search built with HTML, CSS, and JavaScript.",
+        "description": "Advanced Google Search lets you quickly find precise information by applying custom filters and search options.",
         "image": "projects/advanced-search.webp",
         "techStack": "HTML \u2022 CSS \u2022 JavaScript",
         "liveDemo": "https://aadityageek.github.io/advanced-search/",
@@ -19,7 +19,7 @@
     },
     {
         "title": "Firebase Authentication",
-        "description": "A simple Firebase authentication system built with HTML, CSS, JavaScript and Firebase.",
+        "description": "AadiAuth offers simple, secure authentication with easy sign-in, sign-up, and password recovery for users.",
         "image": "projects/authentication-web-page.webp",
         "techStack": "HTML \u2022 CSS \u2022 JavaScript \u2022 Firebase",
         "liveDemo": "https://aadityageek.github.io/authentication-web-page/",
@@ -28,7 +28,7 @@
     },
     {
         "title": "Personal Portfolio",
-        "description": "A responsive website showcasing my skills, projects, and resume.",
+        "description": "Modern, responsive website that elegantly showcases professional experience, skills, projects, and certificates in an interactive layout.",
         "image": "projects/personal_portfolio.webp",
         "techStack": "HTML \u2022 CSS \u2022 JavaScript",
         "liveDemo": "https://aadityageek.github.io/",
@@ -46,7 +46,7 @@
     },
     {
         "title": "Gradient Color Generator",
-        "description": "A simple gradient color generator built with HTML, CSS, and JavaScript.",
+        "description": "Create and preview custom gradients instantly. Choose colors, set direction, and copy the CSS code with one click.",
         "image": "projects/gradient-color-generator.webp",
         "techStack": "HTML \u2022 CSS \u2022 JavaScript",
         "liveDemo": "https://aadityageek.github.io/gradient-color-generator/",
@@ -55,7 +55,7 @@
     },
     {
         "title": "AI Image Generator",
-        "description": "A AI image generator built with HTML, CSS, and JavaScript.",
+        "description": "Generate unique images by describing your ideas, choosing a model, and customizing image settings. Instantly view and explore your AI-generated results.",
         "image": "projects/ai_image_generator.webp",
         "techStack": "HTML \u2022 CSS \u2022 JavaScript",
         "liveDemo": "https://aadityageek.github.io/ai-image-generator/",
@@ -64,7 +64,7 @@
     },
     {
         "title": "Photo Metadata Analysis",
-        "description": "A Photo Metadata Analysis built with HTML, CSS, and JavaScript.",
+        "description": "Quickly view hidden photo details and metadata with a simple image upload. Your images stay private and secure.",
         "image": "projects/photo_metadata_viewer.webp",
         "techStack": "HTML \u2022 CSS \u2022 JavaScript",
         "liveDemo": "https://aadityageek.github.io/photo-metadata-viewer/",
@@ -73,7 +73,7 @@
     },
     {
         "title": "Image Compressor Pro",
-        "description": "A Image Compressor Pro built with HTML, CSS, and JavaScript.",
+        "description": "Compress images instantly to your desired size while keeping quality. Fast, free, and secure—no uploads needed.",
         "image": "projects/image-compressor-pro.webp",
         "techStack": "HTML \u2022 CSS \u2022 JavaScript",
         "liveDemo": "https://aadityageek.github.io/image-compressor-pro/",
@@ -82,7 +82,7 @@
     },
     {
         "title": "Spin the Wheel",
-        "description": "A Spin the Wheel built with HTML, CSS, and JavaScript.",
+        "description": "Spin the Wheel is an interactive app for random draws, raffles, and giveaways. Add options, set chances, and spin to pick a winner.",
         "image": "projects/spin-the-wheel.png",
         "techStack": "HTML \u2022 CSS \u2022  JavaScript",
         "liveDemo": "https://aadityageek.github.io/spin-the-wheel/",
