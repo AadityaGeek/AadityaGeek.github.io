@@ -40,6 +40,14 @@
         "category": "programming"
     },
     {
+        "title": "Database for Developers",
+        "org": "Oracle",
+        "date": "April 2025",
+        "image": "certificates/Oracle-Dev-Gym.webp",
+        "verify": "https://drive.google.com/file/d/15zrS0z1sbBVChBPSvSXIfzHgabgn6wtC/view",
+        "category": "database"
+    },
+    {
         "title": "Certificate Program in Banking Finance and Insurance",
         "org": "Bajaj Finserv",
         "date": "August 2023",
@@ -56,14 +64,6 @@
         "category": "finance"
     },
     {
-        "title": "Responsive Web Design",
-        "org": "freeCodeCamp",
-        "date": "January 2024",
-        "image": "certificates/Responsive_Web_Design.png",
-        "verify": "https://www.freecodecamp.org/certification/aadityakumar/responsive-web-design/",
-        "category": "web"
-    },
-    {
         "title": "Introduction to Data Analytics",
         "org": "SkillUp",
         "date": "February 2022",
@@ -78,22 +78,6 @@
         "image": "certificates/Certificate_for_the_Completion_of _HTML_Training.webp",
         "verify": "https://drive.google.com/file/d/1XwAiNp-l2dmez2vDDbX8O3Qo59Q7AT2N/view",
         "category": "web"
-    },
-    {
-        "title": "Completion of LibreOffice Suite Writer",
-        "org": "Spoken Tutorial",
-        "date": "April 2022",
-        "image": "certificates/Completion_of_LibreOffice_Suite_Writer.webp",
-        "verify": "https://drive.google.com/file/d/1XzpIRG8TPOKBWsIXooPCCAXUQa-KbwDE/view",
-        "category": "office"
-    },
-    {
-        "title": "Completion of LibreOffice Suite Calc",
-        "org": "Spoken Tutorial",
-        "date": "April 2022",
-        "image": "certificates/Completion_of_LibreOffice_Suite_Calc.webp",
-        "verify": "https://drive.google.com/file/d/1Xgao9IaoZ16_yq9Bdbs3I4qT3K1LlNMa/view",
-        "category": "office"
     },
     {
         "title": "Completion of C Training",
@@ -118,5 +102,21 @@
         "image": "certificates/Completion-of-Advanced-Cpp-Training.webp",
         "verify": "https://drive.google.com/file/d/13ksxkNYGlhv3otLEcOKZsalgoQ8_TIg-/view",
         "category": "programming"
+    },
+    {
+        "title": "Completion of LibreOffice Suite Writer",
+        "org": "Spoken Tutorial",
+        "date": "April 2022",
+        "image": "certificates/Completion_of_LibreOffice_Suite_Writer.webp",
+        "verify": "https://drive.google.com/file/d/1XzpIRG8TPOKBWsIXooPCCAXUQa-KbwDE/view",
+        "category": "office"
+    },
+    {
+        "title": "Completion of LibreOffice Suite Calc",
+        "org": "Spoken Tutorial",
+        "date": "April 2022",
+        "image": "certificates/Completion_of_LibreOffice_Suite_Calc.webp",
+        "verify": "https://drive.google.com/file/d/1Xgao9IaoZ16_yq9Bdbs3I4qT3K1LlNMa/view",
+        "category": "office"
     }
 ]
