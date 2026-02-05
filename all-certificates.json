@@ -8,6 +8,14 @@
         "category": "programming"
     },
     {
+        "title": "Python Foundation Certification",
+        "org": "Infosys Springboard",
+        "date": "Janauary 2026",
+        "image": "certificates/Python-Foundation-Certificate.png",
+        "verify": "https://verify.onwingspan.com/",
+        "category": "programming"
+    },
+    {
         "title": "Responsive Web Design",
         "org": "freeCodeCamp",
         "date": "January 2024",

@@ -36,6 +36,33 @@
         "category": "web"
     },
     {
+        "title": "Superstore Sales Analysis",
+        "description": "An in-depth analysis of Superstore sales data using Python, Pandas, and Matplotlib to uncover trends and insights.",
+        "image": "projects/superstore_sales_analysis.webp",
+        "techStack": "Python \u2022 Pandas \u2022 Matplotlib",
+        "liveDemo": "https://github.com/AadityaGeek/python-data-analysis-projects/tree/main/superstore-sales-analysis/",
+        "githubLink": "https://github.com/AadityaGeek/python-data-analysis-projects/tree/main/superstore-sales-analysis/",
+        "category": "python"
+    },
+    {
+        "title": "Personal Finance Analysis",
+        "description": "A comprehensive analysis of personal finance data using Python, Pandas, and Matplotlib to track expenses and income.",
+        "image": "projects/personal_finance_analysis.webp",
+        "techStack": "Python \u2022 Pandas \u2022 Matplotlib",
+        "liveDemo": "https://github.com/AadityaGeek/python-data-analysis-projects/tree/main/personal-finance-analysis/",
+        "githubLink": "https://github.com/AadityaGeek/python-data-analysis-projects/tree/main/personal-finance-analysis/",
+        "category": "python"
+    },
+    {
+        "title": "Student Performance Analysis",
+        "description": "Analyzing student performance data using Python, Pandas, and Matplotlib to identify key factors affecting academic success.",
+        "image": "projects/student_performance_analysis.webp",
+        "techStack": "Python \u2022 Pandas \u2022 Matplotlib",
+        "liveDemo": "https://github.com/AadityaGeek/python-data-analysis-projects/tree/main/student-performance-analysis/",
+        "githubLink": "https://github.com/AadityaGeek/python-data-analysis-projects/tree/main/student-performance-analysis/",
+        "category": "python"
+    },
+    {
         "title": "Math Tools",
         "description": "A simple math tools built with HTML, CSS, and JavaScript.",
         "image": "projects/math_tools.webp",
@@ -43,6 +70,33 @@
         "liveDemo": "https://aadityageek.github.io/math-tools/",
         "githubLink": "https://github.com/AadityaGeek/math-tools/",
         "category": "tools"
+    },
+        {
+            "title": "AI Image Generator",
+            "description": "Generate unique images by describing your ideas, choosing a model, and customizing image settings. Instantly view and explore your AI-generated results.",
+            "image": "projects/ai_image_generator.webp",
+            "techStack": "HTML \u2022 CSS \u2022 JavaScript \u2022 Hugging Face API",
+            "liveDemo": "https://aadityageek.github.io/ai-image-generator/",
+            "githubLink": "https://github.com/AadityaGeek/ai-image-generator",
+            "category": "web"
+        },
+        {
+            "title": "Photo Metadata Analysis",
+            "description": "Quickly view hidden photo details and metadata with a simple image upload. Your images stay private and secure.",
+            "image": "projects/photo_metadata_viewer.webp",
+            "techStack": "HTML \u2022 CSS \u2022 JavaScript",
+            "liveDemo": "https://aadityageek.github.io/photo-metadata-viewer/",
+            "githubLink": "https://github.com/AadityaGeek/photo-metadata-viewer/",
+            "category": "web"
+        },
+        {
+            "title": "Image Compressor Pro",
+            "description": "Compress images instantly to your desired size while keeping quality. Fast, free, and secure—no uploads needed.",
+            "image": "projects/image-compressor-pro.webp",
+            "techStack": "HTML \u2022 CSS \u2022 JavaScript",
+            "liveDemo": "https://aadityageek.github.io/image-compressor-pro/",
+            "githubLink": "https://github.com/AadityaGeek/image-compressor-pro/",
+            "category": "web"
     },
     {
         "title": "Gradient Color Generator",
@@ -52,33 +106,6 @@
         "liveDemo": "https://aadityageek.github.io/gradient-color-generator/",
         "githubLink": "https://github.com/AadityaGeek/gradient-color-generator/",
         "category": "tools"
-    },
-    {
-        "title": "AI Image Generator",
-        "description": "Generate unique images by describing your ideas, choosing a model, and customizing image settings. Instantly view and explore your AI-generated results.",
-        "image": "projects/ai_image_generator.webp",
-        "techStack": "HTML \u2022 CSS \u2022 JavaScript \u2022 Hugging Face API",
-        "liveDemo": "https://aadityageek.github.io/ai-image-generator/",
-        "githubLink": "https://github.com/AadityaGeek/ai-image-generator",
-        "category": "web"
-    },
-    {
-        "title": "Photo Metadata Analysis",
-        "description": "Quickly view hidden photo details and metadata with a simple image upload. Your images stay private and secure.",
-        "image": "projects/photo_metadata_viewer.webp",
-        "techStack": "HTML \u2022 CSS \u2022 JavaScript",
-        "liveDemo": "https://aadityageek.github.io/photo-metadata-viewer/",
-        "githubLink": "https://github.com/AadityaGeek/photo-metadata-viewer/",
-        "category": "web"
-    },
-    {
-        "title": "Image Compressor Pro",
-        "description": "Compress images instantly to your desired size while keeping quality. Fast, free, and secure—no uploads needed.",
-        "image": "projects/image-compressor-pro.webp",
-        "techStack": "HTML \u2022 CSS \u2022 JavaScript",
-        "liveDemo": "https://aadityageek.github.io/image-compressor-pro/",
-        "githubLink": "https://github.com/AadityaGeek/image-compressor-pro/",
-        "category": "web"
     },
     {
         "title": "Spin the Wheel",
