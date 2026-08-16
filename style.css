@@ -80,6 +80,72 @@ a {
   transform: translateY(-3px);
 }
 
+/* Home Section Buttons */
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+/* Featured New Website Button - Attention Grabbing */
+.btn-featured {
+  background: linear-gradient(135deg, #1d4ed8, #7c3aed);
+  color: #ffffff !important;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: var(--border-radius-sm);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 4px 16px rgba(124, 58, 237, 0.4);
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  animation: pulse-glow 2.5s infinite;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.btn-featured:hover {
+  background: linear-gradient(135deg, #1e40af, #6d28d9);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 22px rgba(124, 58, 237, 0.6);
+  animation: none;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 4px 16px rgba(124, 58, 237, 0.35);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 6px 22px rgba(124, 58, 237, 0.65);
+    transform: scale(1.02);
+  }
+}
+
+/* Secondary Button Outline */
+.btn-secondary-outline {
+  background: rgba(255, 255, 255, 0.6);
+  color: #0056b3;
+  border: 2px solid var(--primary-color);
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: var(--border-radius-sm);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.btn-secondary-outline:hover {
+  background-color: var(--primary-color);
+  color: #ffffff !important;
+  transform: translateY(-3px);
+}
+
 /* Navigation */
 nav {
   background-color: var(--bg-dark);
@@ -653,6 +719,19 @@ footer {
 
   .home-content h1 {
     font-size: 2rem;
+  }
+
+  .home-buttons {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin: 20px auto 0;
+  }
+
+  .home-buttons .btn {
+    padding: 9px 16px;
+    font-size: 0.9rem;
   }
 
   .home img {

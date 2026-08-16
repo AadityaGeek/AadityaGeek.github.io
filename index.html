@@ -34,9 +34,9 @@
       <ul class="nav-list">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#certificates">Certificates</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#resume">Resume</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -49,7 +49,12 @@
       <div class="home-content">
         <h1>Hi, I'm <span>Aaditya Kumar</span></h1>
         <p>Aspiring Programmer | MCA Student | Passionate about Software Engineering | Committed to Continuous Learning | Simplifying Complexity</p>
-        <a href="#portfolio" class="btn">View My Work</a>
+        <div class="home-buttons">
+          <a href="https://aadityakr.vercel.app/" class="btn btn-featured" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-rocket"></i> Visit My New Website <i class="fas fa-external-link-alt"></i>
+          </a>
+          <a href="#portfolio" class="btn btn-secondary-outline">View My Work</a>
+        </div>
       </div>
       <img src="images/aaditya_kumar.webp"
            alt="Aaditya Kumar" 
@@ -76,94 +81,6 @@
         <li>Java Programming</li>
         
       </ul>
-    </div>
-  </section>
-
-  <!-- Education Section -->
-  <section id="education" class="education">
-    <div class="container">
-      <h2>Education</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-content">
-            <h3>Masters of Computer Application - MCA</h3>
-            <p>Patna University, Patna</p>
-            <p>2024 - 2026</p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-content">
-            <h3>Bachelor of Computer Application - BCA</h3>
-            <p>Patliputra University, Patna</p>
-            <p>2021 - 2024</p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-content">
-            <h3>Intermediate (12th)</h3>
-            <p>S.G.D High School, Patna</p>
-            <p>2019 - 2021</p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-content">
-            <h3>Matriculation (10th)</h3>
-            <p>Christ Church Diocesan School, Patna</p>
-            <p>2019</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Certificates Section -->
-  <section id="certificates" class="certificates">
-    <div class="container">
-      <h2>Featured Certificates</h2>
-      <div class="certificates-grid">
-        <!-- Only top 3 certificates -->
-        <div class="certificate-card">
-          <img src="certificates/Responsive_Web_Design.png" alt="Responsive Web Design Certificate">
-          <div class="certificate-content">
-            <h3>Responsive Web Design</h3>
-            <p>freeCodeCamp</p>
-            <p class="date">Issued: January 2024</p>
-            <div class="certificate-actions">
-              <button class="btn" onclick="openCertModal('certificates/Responsive_Web_Design.png')">View</button>
-              <a href="https://www.freecodecamp.org/certification/aadityakumar/responsive-web-design" class="btn btn-outline" target="_blank">Verify</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="certificate-card">
-          <img src="certificates/basics_of_python.webp" alt="Basics of Python Certificate">
-          <div class="certificate-content">
-            <h3>Basics of Python</h3>
-            <p>Code 360</p>
-            <p class="date">Issued: June 2024</p>
-            <div class="certificate-actions">
-              <button class="btn" onclick="openCertModal('certificates/basics_of_python.webp')">View</button>
-              <a href="https://files.codingninjas.in/certi_image6114081773c31e64a64533bd5e377e6e155244.jpg" class="btn btn-outline" target="_blank">Verify</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="certificate-card">
-          <img src="certificates/Certificate_Program_in_Banking_Finance_and_Insurance.jpg" alt="Certificate Program in Banking Finance and Insurance">
-          <div class="certificate-content">
-            <h3>Certificate Program in Banking Finance and Insurance</h3>
-            <p>Bajaj Finserv</p>
-            <p class="date">Issued: August 2023</p>
-            <div class="certificate-actions">
-              <button class="btn" onclick="openCertModal('certificates/Certificate_Program_in_Banking_Finance_and_Insurance.jpg')">View</button>
-              <a href="https://drive.google.com/file/d/1oDpBfBcbgERWbTAswYad1Io4k34-cv_r/view" class="btn btn-outline" target="_blank">Verify</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="certificates-footer">
-        <a href="all-certificates.html" class="btn btn-large">View All Certificates</a>
-      </div>
     </div>
   </section>
 
@@ -220,6 +137,94 @@
       </div>
       <div class="portfolio-footer">
         <a href="all-projects.html" class="btn btn-large">View All Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="certificates">
+    <div class="container">
+      <h2>Featured Certificates</h2>
+      <div class="certificates-grid">
+        <!-- Only top 3 certificates -->
+        <div class="certificate-card">
+          <img src="certificates/Responsive_Web_Design.png" alt="Responsive Web Design Certificate">
+          <div class="certificate-content">
+            <h3>Responsive Web Design</h3>
+            <p>freeCodeCamp</p>
+            <p class="date">Issued: January 2024</p>
+            <div class="certificate-actions">
+              <button class="btn" onclick="openCertModal('certificates/Responsive_Web_Design.png')">View</button>
+              <a href="https://www.freecodecamp.org/certification/aadityakumar/responsive-web-design" class="btn btn-outline" target="_blank">Verify</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="certificate-card">
+          <img src="certificates/basics_of_python.webp" alt="Basics of Python Certificate">
+          <div class="certificate-content">
+            <h3>Basics of Python</h3>
+            <p>Code 360</p>
+            <p class="date">Issued: June 2024</p>
+            <div class="certificate-actions">
+              <button class="btn" onclick="openCertModal('certificates/basics_of_python.webp')">View</button>
+              <a href="https://files.codingninjas.in/certi_image6114081773c31e64a64533bd5e377e6e155244.jpg" class="btn btn-outline" target="_blank">Verify</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="certificate-card">
+          <img src="certificates/Certificate_Program_in_Banking_Finance_and_Insurance.jpg" alt="Certificate Program in Banking Finance and Insurance">
+          <div class="certificate-content">
+            <h3>Certificate Program in Banking Finance and Insurance</h3>
+            <p>Bajaj Finserv</p>
+            <p class="date">Issued: August 2023</p>
+            <div class="certificate-actions">
+              <button class="btn" onclick="openCertModal('certificates/Certificate_Program_in_Banking_Finance_and_Insurance.jpg')">View</button>
+              <a href="https://drive.google.com/file/d/1oDpBfBcbgERWbTAswYad1Io4k34-cv_r/view" class="btn btn-outline" target="_blank">Verify</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="certificates-footer">
+        <a href="all-certificates.html" class="btn btn-large">View All Certificates</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Masters of Computer Application - MCA</h3>
+            <p>Patna University, Patna</p>
+            <p>2024 - 2026</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Bachelor of Computer Application - BCA</h3>
+            <p>Patliputra University, Patna</p>
+            <p>2021 - 2024</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Intermediate (12th)</h3>
+            <p>S.G.D High School, Patna</p>
+            <p>2019 - 2021</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Matriculation (10th)</h3>
+            <p>Christ Church Diocesan School, Patna</p>
+            <p>2019</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
